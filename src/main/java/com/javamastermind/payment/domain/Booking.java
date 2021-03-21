@@ -27,6 +27,11 @@ public class Booking
 
     private String status;
 
+    public Booking()
+    {
+
+    }
+
     public Booking(String bookingTranUUId, String userId, String bookedPrice)
     {
         this.bookingTranUUId = bookingTranUUId;

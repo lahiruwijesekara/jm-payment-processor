@@ -9,7 +9,7 @@ package com.javamastermind.payment.enums;
  */
 public enum Statuses
 {
-    APPROVED,
+    CONFIRMED,
     DECLINED,
     PENDING,
     REJECTED
