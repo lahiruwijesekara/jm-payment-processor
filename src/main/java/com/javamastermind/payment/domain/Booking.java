@@ -2,11 +2,11 @@ package com.javamastermind.payment.domain;
 
 import com.javamastermind.payment.enums.Statuses;
 
-/**
- * @author lahiru_w
- */
 public class Booking
 {
+    /**
+     * @author lahiru_w
+     */
     private String userId;
 
     private String propertyID;
@@ -26,6 +26,8 @@ public class Booking
     private RoomData roomdata;
 
     private String status;
+
+    private PayRequest payRequest;
 
     public Booking()
     {
@@ -204,6 +206,16 @@ public class Booking
     public void setStatus(String status)
     {
         this.status = status;
+    }
+
+    public PayRequest getPayRequest()
+    {
+        return payRequest;
+    }
+
+    public void setPayRequest(PayRequest payRequest)
+    {
+        this.payRequest = payRequest;
     }
 
     @Override
